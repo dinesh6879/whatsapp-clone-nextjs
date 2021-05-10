@@ -1,13 +1,13 @@
 import firebase from 'firebase'
 
 var firebaseConfig = {
-    apiKey: "AIzaSyBROfY8rRT9P_Hc4K4Vyr349NGg_LFG2j0",
-    authDomain: "dinesh-6d772.firebaseapp.com",
-    projectId: "dinesh-6d772",
-    storageBucket: "dinesh-6d772.appspot.com",
-    messagingSenderId: "263967240199",
-    appId: "1:263967240199:web:1a6d9db3127e0f0cebbaa2",
-  };
+    apiKey: "AIzaSyCMxMO_3aOuoAVJdttred7a8iCOhDBVon4",
+    authDomain: "whatsapp-ks.firebaseapp.com",
+    projectId: "whatsapp-ks",
+    storageBucket: "whatsapp-ks.appspot.com",
+    messagingSenderId: "844005526864",
+    appId: "1:844005526864:web:a160c0e838ecaaf5dcb055"
+};
 
 const app = !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app()
 
